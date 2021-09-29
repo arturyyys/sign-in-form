@@ -11,22 +11,6 @@ const Login = (props) => {
   const [passwordIsValid, setPasswordIsValid] = useState();
   const [formIsValid, setFormIsValid] = useState(false);
 
-  // runs after every component render cycle
-  // useEffect(() => {
-  //   console.log("EFFECT RUNNING");
-  // });
-
-  // only run once
-  // useEffect(() => {
-  //   console.log("EFFECT RUNNING");
-  // }, []);
-
-  // reruns after every enteredPassword time
-  // useEffect(() => {
-  //   console.log("EFFECT RUNNING");
-  // }, [enteredPassword]);
-
-  // return runs every time after enteredPassword time
   useEffect(() => {
     console.log("EFFECT RUNNING");
     return () => {
