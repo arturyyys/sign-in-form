@@ -61,7 +61,7 @@ const Login = (props) => {
   };
 
   const validateEmailHandler = () => {
-    dispatchEmail({ type: "INPUT-BLUR" });
+    dispatchEmail({ type: "INPUT_BLUR" });
   };
 
   const validatePasswordHandler = () => {
